@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <style>
+  body{
+    background: #333;
+  }
+  .kite{
+    width: 0;
+    height: 0;
+    border: 100px solid orange;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    transform: rotate(45deg);
+    border-radius: 8px;
+    position: relative;
+    margin-top: 100px;
+    top: 30%;
+    left: 20%;
+    background: white;
+  }
+  .kite:after{
+    content: "";
+    width: 0;
+    height: 0;
+    transform: rotate(90deg);
+    position: absolute;
+    border: 70px solid 
+    rgb(7,163,103);
+    top: 80px;
+    left: 80px;
+    border-right-color: transparent;
+    border-top-color: transparent;
+  }
+ </style>
+</head>
+<body>
+   <div class="kite"></div>
+</body>
+</html>
